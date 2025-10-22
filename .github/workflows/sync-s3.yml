@@ -1,0 +1,53 @@
+name: Sync S3 Files
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "s3-files/**"
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  STAGING_AWS_ACCOUNT_ID: "293602984666"
+  PROD_AWS_ACCOUNT_ID: "332134949057"
+
+jobs:
+  sync-to-s3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials for staging
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ env.STAGING_AWS_ACCOUNT_ID }}:role/McpDemoSync
+          aws-region: us-east-1
+          role-session-name: GitHubActions-S3Sync-Staging
+
+      - name: Sync to vendia-demo-staging
+        run: |
+          aws s3 sync s3-files/ s3://vendia-demo-staging/ --delete
+
+      - name: Configure AWS credentials for share
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{ env.PROD_AWS_ACCOUNT_ID }}:role/McpDemoSync
+          aws-region: us-east-1
+          role-session-name: GitHubActions-S3Sync-Share
+
+      - name: Sync to vendia-demo-share
+        run: |
+          aws s3 sync s3-files/ s3://vendia-demo-share/ --delete
+
+      - name: Report sync status
+        if: success()
+        run: |
+          echo "✓ Successfully synced s3-files to both S3 buckets"
+          echo "  - vendia-demo-staging"
+          echo "  - vendia-demo-share"
