@@ -8,7 +8,8 @@
                 "As a homeowner, explain and summarize the contract to me in simple terms.",
                 "As an investor explain and summarize this contract to me in simple terms.",
                 "List all the homeowner protections that appear in this agreement — for example, notice before foreclosure, complaint handling, data privacy, or loss mitigation help.",
-                "List all the loan servicing company protections that appear in this agreement."
+                "List all the loan servicing company protections that appear in this agreement.",
+                "Test the cache buster"
             ]
         },
         {
