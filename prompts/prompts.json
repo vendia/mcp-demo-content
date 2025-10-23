@@ -2,19 +2,22 @@
     "version": "1.0.0",
     "cards": [
         {
-            "title": "List Available Resources",
-            "subtitle": "Discover what data and capabilities the server offers",
-            "prompt": "What resources are available in this MCP server?"
+            "title": "Mortgage Loan Agreement",
+            "prompts": [
+                "Summarize this contract in simple, lay man terms for a non-lawyer audience in a few lines.",
+                "As a homeowner, explain and summarize the contract to me in simple terms.",
+                "As an investor explain and summarize this contract to me in simple terms.",
+                "List all the homeowner protections that appear in this agreement — for example, notice before foreclosure, complaint handling, data privacy, or loss mitigation help.",
+                "List all the loan servicing company protections that appear in this agreement."
+            ]
         },
         {
-            "title": "Query Data",
-            "subtitle": "Fetch and display recent data from the server",
-            "prompt": "Can you show me the latest entries from the database?"
-        },
-        {
-            "title": "Execute Action",
-            "subtitle": "Perform operations through the MCP server",
-            "prompt": "Create a new record with the following details: name='Test', status='active'"
+            "title": "NYC Taxi Data",
+            "prompts": [
+                "Analyze and summarize this dataset.",
+                "Show revenue loss analysis for yellow taxis - how much money did they lose to ride-sharing.",
+                "Show driver utilization patterns - avg hours per day per driver trends."
+            ]
         }
     ]
 }
