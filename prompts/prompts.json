@@ -4,7 +4,7 @@
         {
             "title": "Mortgage Loan Agreement",
             "prompts": [
-                "Summarize this contract in simple, lay man terms for a non-lawyer audience in a few lines.",
+                "Summarize this contract in simple, layman terms for a non-lawyer audience in a few lines.",
                 "As a homeowner, explain and summarize the contract to me in simple terms.",
                 "As an investor explain and summarize this contract to me in simple terms.",
                 "List all the homeowner protections that appear in this agreement — for example, notice before foreclosure, complaint handling, data privacy, or loss mitigation help.",
