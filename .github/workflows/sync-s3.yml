@@ -26,7 +26,7 @@ jobs:
       - name: Configure AWS credentials for staging
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::${{ env.STAGING_AWS_ACCOUNT_ID }}:role/McpDemoSync
+          role-to-assume: arn:aws:iam::${{ env.STAGING_AWS_ACCOUNT_ID }}:role/githubci/McpDemoSync
           aws-region: us-east-1
           role-session-name: GitHubActions-S3Sync-Staging
 
@@ -37,7 +37,7 @@ jobs:
       - name: Configure AWS credentials for share
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::${{ env.PROD_AWS_ACCOUNT_ID }}:role/McpDemoSync
+          role-to-assume: arn:aws:iam::${{ env.PROD_AWS_ACCOUNT_ID }}:role/githubci/McpDemoSync
           aws-region: us-east-1
           role-session-name: GitHubActions-S3Sync-Share
 
