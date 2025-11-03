@@ -4,5 +4,11 @@
         "description": "Notion is a collaboration and productivity tool.",
         "mcpUrl": "https://mcp.notion.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/notion-logo.svg"
+    },
+    {
+        "name": "HubSpot",
+        "description": "Hubspot allows CRM workflows to be automated and streamlined.",
+        "mcpUrl": "https://mcp.hubspot.com",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/hubspot-logo.svg"
     }
 ]
