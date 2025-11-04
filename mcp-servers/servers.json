@@ -24,9 +24,15 @@
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/neon.svg"
     },
     {
-        "name": "HubSpot",
-        "description": "Hubspot allows CRM workflows to be automated and streamlined.",
-        "mcpUrl": "https://mcp.hubspot.com",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/hubspot-logo.svg"
+        "name": "Linear",
+        "description": "Linear is a project management tool.",
+        "mcpUrl": "https://mcp.linear.app/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/linear.svg"
+    },
+    {
+        "name": "Paypal",
+        "description": "PayPal is a global online payment system.",
+        "mcpUrl": "https://mcp.paypal.com/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/refs/heads/feature/VENDIA-2865-Add-List-Of-3rd-Party-Mcp-Servers/mcp-servers/logos/paypal.png"
     }
 ]
