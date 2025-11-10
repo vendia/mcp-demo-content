@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Notion",
+        "description": "Notion is a collaboration and productivity tool.",
+        "mcpUrl": "https://mcp.notion.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg"
+    },
+    {
+        "name": "Atlassian",
+        "description": "Collaboration software for software, IT and business teams.",
+        "mcpUrl": "https://mcp.atlassian.com/v1/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg"
+    },
+    {
+        "name": "Sentry",
+        "description": "Sentry is a developer-first error tracking and performance monitoring platform.",
+        "mcpUrl": "https://mcp.sentry.dev/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg"
+    },
+    {
+        "name": "Neon",
+        "description": "Neon is a fully managed serverless PostgreSQL.",
+        "mcpUrl": "https://mcp.neon.tech/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg"
+    },
+    {
+        "name": "Linear",
+        "description": "Linear is a project management tool.",
+        "mcpUrl": "https://mcp.linear.app/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear.svg"
+    },
+    {
+        "name": "Paypal",
+        "description": "PayPal is a global online payment system.",
+        "mcpUrl": "https://mcp.paypal.com/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png"
+    }
+]
