@@ -24,12 +24,7 @@ jobs:
         with:
           files: |
             **.json
-
-      - name: Install jq
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
+          separator: "\n"
 
       - name: Validate JSON files
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -38,7 +33,8 @@ jobs:
           
           failed_files=()
           
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
             echo "Validating: $file"
             
             if [ ! -f "$file" ]; then
@@ -52,7 +48,7 @@ jobs:
               echo "  ✗ Invalid JSON - parsing failed"
               failed_files+=("$file")
             fi
-          done
+          done <<< "${{ steps.changed-files.outputs.all_changed_files }}"
           
           if [ ${#failed_files[@]} -gt 0 ]; then
             echo ""
