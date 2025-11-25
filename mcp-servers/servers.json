@@ -33,6 +33,6 @@
         "name": "Paypal",
         "description": "PayPal is a global online payment system.",
         "mcpUrl": "https://mcp.paypal.com/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png",
     }
 ]
