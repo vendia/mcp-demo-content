@@ -1,9 +1,6 @@
 name: JSON Validation
 
 on:
-  push:
-    paths:
-      - "**.json"
   pull_request:
     paths:
       - "**.json"
@@ -26,31 +23,30 @@ jobs:
         with:
           files: |
             **.json
-          separator: "\n"
 
       - name: Validate JSON files
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           echo "Validating JSON files..."
-          
+
           failed_files=()
-          
-          while IFS= read -r file; do
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             [ -z "$file" ] && continue
             echo "Validating: $file"
-            
+
             if [ ! -f "$file" ]; then
               echo "  ⚠️  File was deleted or moved, skipping validation"
               continue
             fi
-            
+
             if jq empty "$file" 2>/dev/null; then
               echo "  ✓ Valid JSON"
             else
               echo "  ✗ Invalid JSON - parsing failed"
               failed_files+=("$file")
             fi
-          done <<< "${{ steps.changed-files.outputs.all_changed_files }}"
+          done
           
           if [ ${#failed_files[@]} -gt 0 ]; then
             echo ""
