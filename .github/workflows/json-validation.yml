@@ -1,0 +1,78 @@
+name: JSON Validation
+
+on:
+  push:
+    paths:
+      - "**.json"
+  pull_request:
+    paths:
+      - "**.json"
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed JSON files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **.json
+
+      - name: Install jq
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Validate JSON files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Validating JSON files..."
+          
+          failed_files=()
+          
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Validating: $file"
+            
+            if [ ! -f "$file" ]; then
+              echo "  ⚠️  File was deleted or moved, skipping validation"
+              continue
+            fi
+            
+            if jq empty "$file" 2>/dev/null; then
+              echo "  ✓ Valid JSON"
+            else
+              echo "  ✗ Invalid JSON - parsing failed"
+              failed_files+=("$file")
+            fi
+          done
+          
+          if [ ${#failed_files[@]} -gt 0 ]; then
+            echo ""
+            echo "❌ JSON validation failed for the following files:"
+            for file in "${failed_files[@]}"; do
+              echo "  - $file"
+            done
+            exit 1
+          else
+            echo ""
+            echo "✓ All JSON files are valid"
+          fi
+
+      - name: Report success
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "JSON validation completed successfully!"
+          echo "Validated files:"
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              echo "  - $file"
+            fi
+          done
