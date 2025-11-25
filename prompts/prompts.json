@@ -4,19 +4,18 @@
         {
             "title": "Mortgage Loan Agreement",
             "prompts": [
-                "Summarize this contract in simple, layman terms for a non-lawyer audience in a few lines.",
-                "As a homeowner, explain and summarize the contract to me in simple terms.",
-                "As an investor explain and summarize this contract to me in simple terms.",
-                "List all the homeowner protections that appear in this agreement — for example, notice before foreclosure, complaint handling, data privacy, or loss mitigation help.",
-                "List all the loan servicing company protections that appear in this agreement."
+                "Summarize the sample loan mortgage agreement located in the sample loan mortgage folder in the demo Vendia S3 storage connection in simple, layman terms for a non-lawyer audience in a few lines",
+                "As a homeowner, explain and summarize the sample loan mortgage agreement located in the sample loan mortgage folder in the demo Vendia S3 storage connection to me in simple terms",
+                "As an investor, explain and summarize the sample loan mortgage agreement located in the sample loan mortgage folder in the demo Vendia S3 storage connection to me in simple terms",
+                "List all the homeowner protections that appear — for example, notice before foreclosure, complaint handling, data privacy, or loss mitigation help, in the sample loan mortgage agreement located in the sample loan mortgage folder in the demo Vendia S3 storage connection",
             ]
         },
         {
             "title": "NYC Taxi Data",
             "prompts": [
-                "Analyze and summarize this dataset.",
-                "Show revenue loss analysis for yellow taxis - how much money did they lose to ride-sharing.",
-                "Show driver utilization patterns - avg hours per day per driver trends."
+                "Locate and summarize the contents of the NYC taxi data csv file from NYC taxi data folder in the demo Vendia S3 storage connection",
+                "For the NYC taxi data file in the NYC taxi data folder in the demo Vendia S3 storage connection, show revenue loss analysis for yellow taxis - how much money did they lose to ride-sharing",
+                "For the NYC taxi data file in the NYC taxi data folder in the demo Vendia S3 storage connection, show driver utilization patterns - avg hours per day per driver trends",
             ]
         }
     ]
