@@ -15,7 +15,7 @@
             "prompts": [
                 "Locate and summarize the contents of the NYC taxi data csv file from NYC taxi data folder in the demo Vendia S3 storage connection",
                 "For the NYC taxi data file in the NYC taxi data folder in the demo Vendia S3 storage connection, show revenue loss analysis for yellow taxis - how much money did they lose to ride-sharing",
-                "For the NYC taxi data file in the NYC taxi data folder in the demo Vendia S3 storage connection, show driver utilization patterns - avg hours per day per driver trends"
+                "For the NYC taxi data file in the NYC taxi data folder in the demo Vendia S3 storage connection, show driver utilization patterns - avg hours per day per driver trends",
             ]
         }
     ]
