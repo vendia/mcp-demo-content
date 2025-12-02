@@ -24,15 +24,9 @@
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg"
     },
     {
-        "name": "Linear",
-        "description": "Linear is a project management tool.",
-        "mcpUrl": "https://mcp.linear.app/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear.svg"
-    },
-    {
-        "name": "Paypal",
-        "description": "PayPal is a global online payment system.",
-        "mcpUrl": "https://mcp.paypal.com/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png"
+        "name": "Fireflies",
+        "description": "Fireflies is an AI meeting assistant",
+        "mcpUrl": "https://api.fireflies.ai/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/feature/VENDIA-2926-Add-Fireflies-Plus-Others/mcp-servers/logos/Fireflies.svg"
     }
 ]
