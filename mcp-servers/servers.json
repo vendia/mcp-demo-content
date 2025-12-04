@@ -3,30 +3,42 @@
         "name": "Notion",
         "description": "Notion is a collaboration and productivity tool.",
         "mcpUrl": "https://mcp.notion.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg",
+        "dcrSupported": true
     },
     {
         "name": "Atlassian",
         "description": "Collaboration software for software, IT and business teams.",
         "mcpUrl": "https://mcp.atlassian.com/v1/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg",
+        "dcrSupported": true
     },
     {
         "name": "Sentry",
         "description": "Sentry is a developer-first error tracking and performance monitoring platform.",
         "mcpUrl": "https://mcp.sentry.dev/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg",
+        "dcrSupported": true
     },
     {
         "name": "Neon",
         "description": "Neon is a fully managed serverless PostgreSQL.",
         "mcpUrl": "https://mcp.neon.tech/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg",
+        "dcrSupported": true
     },
     {
         "name": "Fireflies",
         "description": "Fireflies is an AI meeting assistant",
         "mcpUrl": "https://api.fireflies.ai/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Fireflies.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Fireflies.svg",
+        "dcrSupported": true
+    },
+    {
+        "name": "Slack",
+        "description": "Slack is a channel-based messaging platform that streamlines communication and collaboration for teams.",
+        "mcpUrl": "https://mcp.slack.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/feature/VENDIA-2927-Add-Slack-Tile-With-DCR-Boolean/mcp-servers/logos/slack.svg",
+        "dcrSupported": false
     }
 ]
