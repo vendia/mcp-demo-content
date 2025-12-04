@@ -36,7 +36,7 @@
     },
     {
         "name": "Slack",
-        "description": "Slack is a channel-based messaging platform that streamlines communication and collaboration for teams.",
+        "description": "Slack is a channel-based platform for seamless team communication and collaboration.",
         "mcpUrl": "https://mcp.slack.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/feature/VENDIA-2927-Add-Slack-Tile-With-DCR-Boolean/mcp-servers/logos/slack.svg",
         "dcrSupported": false
