@@ -47,5 +47,11 @@
         "mcpUrl": "https://mcp.pagerduty.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pagerduty.svg",
         "dcrSupported": false
+    },
+    {
+        "name": "Otter",
+        "description": "Otter.ai is an AI-powered assistant that generates rich notes from meetings.",
+        "mcpUrl": "https://mcp.otter.ai/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/otter.png"
     }
 ]
