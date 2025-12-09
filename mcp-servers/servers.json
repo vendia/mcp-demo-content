@@ -45,7 +45,7 @@
         "name": "PagerDuty",
         "description": "PagerDuty is an incident management platform.",
         "mcpUrl": "https://mcp.pagerduty.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/feature/VENDIA-2935-Add-PagerDuty/mcp-servers/logos/pagerduty.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pagerduty.svg",
         "dcrSupported": false
     }
 ]
