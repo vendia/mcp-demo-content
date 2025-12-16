@@ -3,36 +3,49 @@
         "name": "Notion",
         "description": "Notion is a collaboration and productivity tool.",
         "mcpUrl": "https://mcp.notion.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg",
+        "dcrSupported": true
     },
     {
         "name": "Atlassian",
         "description": "Collaboration software for software, IT and business teams.",
         "mcpUrl": "https://mcp.atlassian.com/v1/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg",
+        "dcrSupported": true
     },
     {
         "name": "Sentry",
         "description": "Sentry is a developer-first error tracking and performance monitoring platform.",
         "mcpUrl": "https://mcp.sentry.dev/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg",
+        "dcrSupported": true
     },
     {
         "name": "Neon",
         "description": "Neon is a fully managed serverless PostgreSQL.",
         "mcpUrl": "https://mcp.neon.tech/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg",
+        "dcrSupported": true
     },
     {
         "name": "Fireflies",
         "description": "Fireflies is an AI meeting assistant",
         "mcpUrl": "https://api.fireflies.ai/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Fireflies.svg"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Fireflies.svg",
+        "dcrSupported": true
     },
     {
         "name": "Otter",
         "description": "Otter.ai is an AI-powered assistant that generates rich notes from meetings.",
         "mcpUrl": "https://mcp.otter.ai/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/otter.png"
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/otter.png",
+        "dcrSupported": true
+    },
+    {
+        "name": "PagerDuty",
+        "description": "PagerDuty is an incident management platform.",
+        "mcpUrl": "https://mcp.pagerduty.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pagerduty.svg",
+        "dcrSupported": false
     }
 ]
