@@ -47,5 +47,12 @@
         "mcpUrl": "https://mcp.pagerduty.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pagerduty.svg",
         "dcrSupported": false
+    },
+    {
+        "name": "Linear",
+        "description": "Linear is a streamlined project and issue tracking tool for software teams.",
+        "mcpUrl": "https://mcp.linear.app/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear-logo.svg",
+        "dcrSupported": true
     }
 ]
