@@ -54,5 +54,12 @@
         "mcpUrl": "https://mcp.linear.app/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear.svg",
         "dcrSupported": true
+    },
+    {
+        "name": "Hugging Face",
+        "description": "Hugging Face is a platform for machine learning models, datasets, and AI tools.",
+        "mcpUrl": "https://huggingface.co/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hf-logo.svg",
+        "dcrSupported": true
     }
 ]
