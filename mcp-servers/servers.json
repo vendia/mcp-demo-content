@@ -61,5 +61,12 @@
         "mcpUrl": "https://huggingface.co/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hf-logo.svg",
         "dcrSupported": true
+    },
+    {
+        "name": "Honeycomb",
+        "description": "Honeycomb is an observability platform for understanding production systems.",
+        "mcpUrl": "https://mcp.honeycomb.io/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/honeycombio.svg",
+        "dcrSupported": true
     }
 ]
