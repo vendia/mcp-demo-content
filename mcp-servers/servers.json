@@ -68,5 +68,12 @@
         "mcpUrl": "https://mcp.honeycomb.io/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/honeycombio.svg",
         "dcrSupported": true
+    },
+    {
+        "name": "Paypal",
+        "description": "PayPal is a global online payment platform letting users securely send/receive money, shop, and manage finances.",
+        "mcpUrl": "https://mcp.paypal.com/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png",
+        "dcrSupported": true
     }
 ]
