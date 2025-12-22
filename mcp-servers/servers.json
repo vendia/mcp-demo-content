@@ -49,6 +49,13 @@
         "dcrSupported": false
     },
     {
+        "name": "Github",
+        "description": "GitHub is a code hosting platform for version control and collaboration.",
+        "mcpUrl": "https://api.githubcopilot.com/mcp/",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/github-mark.svg",
+        "dcrSupported": false
+    },
+    {
         "name": "Linear",
         "description": "Linear is a streamlined project and issue tracking tool for software teams.",
         "mcpUrl": "https://mcp.linear.app/mcp",
