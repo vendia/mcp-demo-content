@@ -54,5 +54,33 @@
         "mcpUrl": "https://api.githubcopilot.com/mcp/",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/github-mark.svg",
         "dcrSupported": false
+    },
+    {
+        "name": "Linear",
+        "description": "Linear is a streamlined project and issue tracking tool for software teams.",
+        "mcpUrl": "https://mcp.linear.app/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear.svg",
+        "dcrSupported": true
+    },
+    {
+        "name": "Hugging Face",
+        "description": "Hugging Face is a platform for machine learning models, datasets, and AI tools.",
+        "mcpUrl": "https://huggingface.co/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hf-logo.svg",
+        "dcrSupported": true
+    },
+    {
+        "name": "Honeycomb",
+        "description": "Honeycomb is an observability platform for understanding production systems.",
+        "mcpUrl": "https://mcp.honeycomb.io/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/honeycombio.svg",
+        "dcrSupported": true
+    },
+    {
+        "name": "Paypal",
+        "description": "PayPal is a global online payment platform letting users securely send/receive money, shop, and manage finances.",
+        "mcpUrl": "https://mcp.paypal.com/sse",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png",
+        "dcrSupported": true
     }
 ]
