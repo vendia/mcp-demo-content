@@ -82,5 +82,12 @@
         "mcpUrl": "https://mcp.paypal.com/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png",
         "dcrSupported": true
+    },
+    {
+        "name": "Box",
+        "description": "Box is a cloud content management platform letting users securely store, share, and collaborate on files and documents.",
+        "mcpUrl": "https://mcp.box.com",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/box.svg",
+        "dcrSupported": false
     }
 ]
