@@ -4,90 +4,90 @@
         "description": "Notion is a collaboration and productivity tool.",
         "mcpUrl": "https://mcp.notion.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Atlassian",
         "description": "Collaboration software for software, IT and business teams.",
         "mcpUrl": "https://mcp.atlassian.com/v1/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Sentry",
         "description": "Sentry is a developer-first error tracking and performance monitoring platform.",
         "mcpUrl": "https://mcp.sentry.dev/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/sentry.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Neon",
         "description": "Neon is a fully managed serverless PostgreSQL.",
         "mcpUrl": "https://mcp.neon.tech/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/neon.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Fireflies",
         "description": "Fireflies is an AI meeting assistant",
         "mcpUrl": "https://api.fireflies.ai/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Fireflies.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Otter",
         "description": "Otter.ai is an AI-powered assistant that generates rich notes from meetings.",
         "mcpUrl": "https://mcp.otter.ai/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/otter.png",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "PagerDuty",
         "description": "PagerDuty is an incident management platform.",
         "mcpUrl": "https://mcp.pagerduty.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pagerduty.svg",
-        "dcrSupported": false
+        "authOptions": "app"
     },
     {
         "name": "Github",
         "description": "GitHub is a code hosting platform for version control and collaboration.",
         "mcpUrl": "https://api.githubcopilot.com/mcp/",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/github-mark.svg",
-        "dcrSupported": false
+        "authOptions": "app"
     },
     {
         "name": "Linear",
         "description": "Linear is a streamlined project and issue tracking tool for software teams.",
         "mcpUrl": "https://mcp.linear.app/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/linear.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Hugging Face",
         "description": "Hugging Face is a platform for machine learning models, datasets, and AI tools.",
         "mcpUrl": "https://huggingface.co/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hf-logo.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Honeycomb",
         "description": "Honeycomb is an observability platform for understanding production systems.",
         "mcpUrl": "https://mcp.honeycomb.io/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/honeycombio.svg",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Paypal",
         "description": "PayPal is a global online payment platform letting users securely send/receive money, shop, and manage finances.",
         "mcpUrl": "https://mcp.paypal.com/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/paypal.png",
-        "dcrSupported": true
+        "authOptions": "auto"
     },
     {
         "name": "Asana",
         "description": "Asana is a cloud-based work management platform that helps teams organize, track, and manage their projects and daily tasks in one place, allowing for better collaboration, clarity on responsibilities (who's doing what by when), and streamlined workflows through features like task lists, boards, timelines, and automation.",
         "mcpUrl": "https://mcp.asana.com/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo-primary.webp",
-        "dcrSupported": true
+        "authOptions": "auto"
     }
 ]
