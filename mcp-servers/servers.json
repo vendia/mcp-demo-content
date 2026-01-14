@@ -96,5 +96,12 @@
         "mcpUrl": "https://mcp.asana.com/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo-primary.webp",
         "authOptions": "auto"
+    },
+    {
+        "name": "Pendo",
+        "description": "Pendo is a product analytics and user guidance platform letting product teams understand user behavior, guide users through features, and gather feedback to improve product adoption and user experience.",
+        "mcpUrl": "https://app.pendo.io/mcp/v0/shttp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pendo.svg",
+        "authOptions": "auto"
     }
 ]
