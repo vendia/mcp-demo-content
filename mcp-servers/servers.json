@@ -96,5 +96,12 @@
         "mcpUrl": "https://mcp.asana.com/sse",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo-primary.webp",
         "authOptions": "auto"
+    },
+    {
+        "name": "Clockwise",
+        "description": "Clockwise is a calendar optimization platform letting users automatically schedule meetings, find time slots, and manage their calendar to maximize focus time and reduce conflicts.",
+        "mcpUrl": "https://mcp.getclockwise.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/clockwise.svg",
+        "authOptions": "auto"
     }
 ]
