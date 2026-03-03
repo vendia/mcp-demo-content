@@ -110,5 +110,19 @@
         "mcpUrl": "https://mcp.getclockwise.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/clockwise.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Hubspot",
+        "description": "HubSpot is a customer platform that unifies marketing, sales, service, content, and commerce tools around a single CRM.",
+        "mcpUrl": "https://mcp.hubspot.com",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot.png",
+        "authOptions": "app"
+    },
+    {
+        "name": "Common Room",
+        "description": "Common Room is a platform that captures buying signals from product usage, community activity, and third-party sources, then uses enrichment and automation to help sales and marketing teams know who to contact, when to reach out, and what to say.",
+        "mcpUrl": "https://mcp.commonroom.io/mcp/",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/common_room.webp",
+        "authOptions": "auto"
     }
 ]
