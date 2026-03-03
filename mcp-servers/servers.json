@@ -115,7 +115,7 @@
         "name": "HubSpot",
         "description": "HubSpot is a customer platform that unifies marketing, sales, service, content, and commerce tools around a single CRM.",
         "mcpUrl": "https://mcp.hubspot.com",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot.png",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot-logo.png",
         "authOptions": "app"
     },
     {
