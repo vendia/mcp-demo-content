@@ -10,7 +10,7 @@
         "name": "Atlassian",
         "description": "Collaboration software for software, IT and business teams.",
         "mcpUrl": "https://mcp.atlassian.com/v1/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.jpg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian-logo.png",
         "authOptions": "auto"
     },
     {
@@ -94,7 +94,7 @@
         "name": "Asana",
         "description": "Asana is a cloud-based work management platform that helps teams organize, track, and manage their projects and daily tasks in one place, allowing for better collaboration, clarity on responsibilities (who's doing what by when), and streamlined workflows through features like task lists, boards, timelines, and automation.",
         "mcpUrl": "https://mcp.asana.com/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo-primary.webp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo.png",
         "authOptions": "auto"
     },
     {
@@ -115,7 +115,7 @@
         "name": "HubSpot",
         "description": "HubSpot is a customer platform that unifies marketing, sales, service, content, and commerce tools around a single CRM.",
         "mcpUrl": "https://mcp.hubspot.com",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot-logo.png",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot-logo-square.png",
         "authOptions": "app"
     },
     {
