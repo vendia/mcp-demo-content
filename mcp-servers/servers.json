@@ -129,7 +129,7 @@
         "name": "Calendly",
         "description": "Enhance your business productivity and automate your scheduling workflows with Calendly's MCP server.",
         "mcpUrl": "https://mcp.calendly.com",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Calendly_idA4lPSDzF_0.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/calendly.svg",
         "authOptions": "auto"
     }
 ]
