@@ -124,5 +124,12 @@
         "mcpUrl": "https://mcp.commonroom.io/mcp/",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/common_room.webp",
         "authOptions": "auto"
+    },
+    {
+        "name": "Miro",
+        "description": "Miro is an infinite canvas loaded with tools designed for creative brainstorming and collaboration.",
+        "mcpUrl": "https://mcp.miro.com/",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/miro.svg",
+        "authOptions": "auto"
     }
 ]
