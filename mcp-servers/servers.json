@@ -124,7 +124,7 @@
         "mcpUrl": "https://mcp.commonroom.io/mcp/",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/common_room.webp",
         "authOptions": "auto"
-    }
+    },
     {
         "name": "Calendly",
         "description": "Enhance your business productivity and automate your scheduling workflows with Calendly's MCP server.",
