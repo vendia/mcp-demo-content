@@ -124,5 +124,12 @@
         "mcpUrl": "https://mcp.commonroom.io/mcp/",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/common_room.webp",
         "authOptions": "auto"
+    },
+    {
+        "name": "Postman",
+        "description": "Postman is an API platform that unifies API design, testing, documentation, and monitoring in one place.",
+        "mcpUrl": "https://mcp.postman.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/postman.svg",
+        "authOptions": "auto"
     }
 ]
