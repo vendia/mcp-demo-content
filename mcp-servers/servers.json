@@ -152,5 +152,12 @@
         "mcpUrl": "https://mcp.postman.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/postman.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Mixpanel",
+        "description": "Mixpanel is a digital analytics platform that helps teams continuously improve their products by turning data into action.",
+        "mcpUrl": "https://mcp.mixpanel.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/mixpanel.svg",
+        "authOptions": "auto"
     }
 ]
