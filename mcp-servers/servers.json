@@ -129,7 +129,19 @@
         "name": "Buildkite",
         "description": "Buildkite is a continuous integration and deployment platform.",
         "mcpUrl": "https://mcp.buildkite.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/buildkite-logo.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/buildkite-logo.svg"
+    },
+    {
+        "name": "Miro",
+        "description": "Miro is an infinite canvas loaded with tools designed for creative brainstorming and collaboration.",
+        "mcpUrl": "https://mcp.miro.com/",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/miro.svg"
+    },
+    {
+        "name": "Postman",
+        "description": "Postman is an API platform that unifies API design, testing, documentation, and monitoring in one place.",
+        "mcpUrl": "https://mcp.postman.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/postman.svg",
         "authOptions": "auto"
     }
 ]
