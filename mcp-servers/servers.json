@@ -105,13 +105,6 @@
         "authOptions": "auto"
     },
     {
-        "name": "Clockwise",
-        "description": "Clockwise is a calendar optimization platform letting users automatically schedule meetings, find time slots, and manage their calendar to maximize focus time and reduce conflicts.",
-        "mcpUrl": "https://mcp.getclockwise.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/clockwise.svg",
-        "authOptions": "auto"
-    },
-    {
         "name": "HubSpot",
         "description": "HubSpot is a customer platform that unifies marketing, sales, service, content, and commerce tools around a single CRM.",
         "mcpUrl": "https://mcp.hubspot.com",
