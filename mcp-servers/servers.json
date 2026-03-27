@@ -3,14 +3,14 @@
         "name": "Notion",
         "description": "Notion is a collaboration and productivity tool.",
         "mcpUrl": "https://mcp.notion.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion-logo.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/notion.svg",
         "authOptions": "auto"
     },
     {
         "name": "Atlassian",
         "description": "Collaboration software for software, IT and business teams.",
         "mcpUrl": "https://mcp.atlassian.com/v1/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian-logo.png",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/atlassian.svg",
         "authOptions": "auto"
     },
     {
@@ -52,7 +52,7 @@
         "name": "Github",
         "description": "GitHub is a code hosting platform for version control and collaboration.",
         "mcpUrl": "https://api.githubcopilot.com/mcp/",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/github-mark.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/github.svg",
         "authOptions": "app"
     },
     {
@@ -94,14 +94,14 @@
         "name": "Asana",
         "description": "Asana is a cloud-based work management platform that helps teams organize, track, and manage their projects and daily tasks in one place, allowing for better collaboration, clarity on responsibilities (who's doing what by when), and streamlined workflows through features like task lists, boards, timelines, and automation.",
         "mcpUrl": "https://mcp.asana.com/sse",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana-logo.png",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/asana.svg",
         "authOptions": "auto"
     },
     {
         "name": "Pendo",
         "description": "Pendo is a product analytics and user guidance platform letting product teams understand user behavior, guide users through features, and gather feedback to improve product adoption and user experience.",
         "mcpUrl": "https://app.pendo.io/mcp/v0/shttp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pendo.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/pendo.png",
         "authOptions": "auto"
     },
     {
@@ -115,7 +115,7 @@
         "name": "HubSpot",
         "description": "HubSpot is a customer platform that unifies marketing, sales, service, content, and commerce tools around a single CRM.",
         "mcpUrl": "https://mcp.hubspot.com",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot-logo-square.png",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/hubspot.png",
         "authOptions": "app"
     },
     {
@@ -136,7 +136,7 @@
         "name": "Buildkite",
         "description": "Buildkite is a continuous integration and deployment platform.",
         "mcpUrl": "https://mcp.buildkite.com/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/buildkite-logo.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/buildkite.svg",
         "authOptions": "auto"    
     },
     {
