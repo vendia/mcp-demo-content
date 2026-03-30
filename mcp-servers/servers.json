@@ -154,6 +154,20 @@
         "authOptions": "auto"
     },
     {
+        "name": "Craft",
+        "description": "Craft is a docs and notes editor that helps teams create, organize, and collaborate on documents.",
+        "mcpUrl": "https://mcp.craft.do/my/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/craft.svg",
+        "authOptions": "auto"
+    },
+    {
+        "name": "Attio",
+        "description": "Attio is a modern, AI-native Customer Relationship Management (CRM) platform designed for sales and go-to-market (GTM) teams, particularly fast-growing startups and scale-ups.",
+        "mcpUrl": "https://mcp.attio.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/attio.svg",
+        "authOptions": "auto"
+    },
+    {
         "name": "Netlify",
         "description": "Netlify is a platform where teams can create with AI or code and deploy instantly on production infrastructure.",
         "mcpUrl": "https://netlify-mcp.netlify.app/mcp",
