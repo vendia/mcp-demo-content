@@ -152,5 +152,12 @@
         "mcpUrl": "https://mcp.mixpanel.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/mixpanel.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Craft",
+        "description": "Craft is a docs and notes editor that helps teams create, organize, and collaborate on documents.",
+        "mcpUrl": "https://mcp.craft.do/my/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/craft.svg",
+        "authOptions": "auto"
     }
 ]
