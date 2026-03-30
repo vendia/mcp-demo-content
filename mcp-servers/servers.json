@@ -152,5 +152,12 @@
         "mcpUrl": "https://mcp.mixpanel.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/mixpanel.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Attio",
+        "description": "Attio is a modern, AI-native Customer Relationship Management (CRM) platform designed for sales and go-to-market (GTM) teams, particularly fast-growing startups and scale-ups.",
+        "mcpUrl": "https://mcp.attio.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/attio.svg",
+        "authOptions": "auto"
     }
 ]
