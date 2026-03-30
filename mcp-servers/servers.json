@@ -166,5 +166,12 @@
         "mcpUrl": "https://mcp.attio.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/attio.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Netlify",
+        "description": "Netlify is a platform where teams can create with AI or code and deploy instantly on production infrastructure.",
+        "mcpUrl": "https://netlify-mcp.netlify.app/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/netlify.svg",
+        "authOptions": "auto"
     }
 ]
