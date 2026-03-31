@@ -173,5 +173,12 @@
         "mcpUrl": "https://netlify-mcp.netlify.app/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/netlify.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Context7",
+        "description": "Context7 is an open-source MCP server by Upstash that provides up-to-date, version-specific library documentation for AI coding assistants.",
+        "mcpUrl": "https://mcp.context7.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/context7.svg",
+        "authOptions": "auto"
     }
 ]
