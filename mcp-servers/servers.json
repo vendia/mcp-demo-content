@@ -180,5 +180,12 @@
         "mcpUrl": "https://mcp.context7.com/mcp",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/context7.svg",
         "authOptions": "auto"
+    },
+    {
+        "name": "Supabase",
+        "description": "Supabase is the Postgres development platform for building and scaling applications.",
+        "mcpUrl": "https://mcp.supabase.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/supabase.svg",
+        "authOptions": "auto"
     }
 ]
