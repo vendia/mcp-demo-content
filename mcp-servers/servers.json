@@ -194,5 +194,12 @@
         "mcpUrl": "https://<your_account_name>.mcp.galaxy.starburst.io",
         "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/starburst.png",
         "authOptions": "app"
+    },
+    {
+        "name": "Posthog",
+        "description": "PostHog's MCP Server lets you analyze, test, and observe user behavior = product analytics, session recording, feature flags, A/B testing, and surveys into a single tool.",
+        "mcpUrl": "https://mcp.posthog.com/mcp",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/posthog.svg",
+        "authOptions": "app"
     }
 ]
