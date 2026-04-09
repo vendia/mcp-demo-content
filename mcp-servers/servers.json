@@ -206,7 +206,7 @@
         "name": "Exa",
         "description": "Exa's MCP Server connects AI assistants to Exa’s search capabilities, including web search and code search.",
         "mcpUrl": "https://mcp.exa.ai/mcp",
-        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/exa.svg",
+        "logoUrl": "https://raw.githubusercontent.com/vendia/mcp-demo-content/main/mcp-servers/logos/Exa-logo-blue.svg",
         "authOptions": "auto"
     }
 ]
